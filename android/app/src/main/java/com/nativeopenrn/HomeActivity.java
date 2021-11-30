@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
         buttonOpenRN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+                Intent intent = new Intent(HomeActivity.this, MainReactActivity.class);
                 intent.putExtra("extrData", "settings");
                 startActivity(intent);
             }
@@ -32,7 +32,8 @@ public class HomeActivity extends AppCompatActivity {
         buttonOpenMyRN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                // 暂时不可用
+//                Toast.makeText(HomeActivity.this, "start without data", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HomeActivity.this, MyReactActivity.class);
                 startActivity(intent);
             }

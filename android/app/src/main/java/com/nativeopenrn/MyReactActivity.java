@@ -44,7 +44,7 @@ public class MyReactActivity extends Activity implements DefaultHardwareBackBtnH
 
         // 注意这里的MyReactNativeApp 必须对应"index.js"中的
         // "AppRegistry.registerComponent()"的第一个参数
-        mReactRootView.startReactApplication(mReactInstanceManager, "nativeopenrn", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "MyApp", null);
 
         setContentView(mReactRootView);
     }
