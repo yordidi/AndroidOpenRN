@@ -9,16 +9,34 @@
         android:layout_width="match_parent"
         app:title="Native Activity"
         android:layout_height="wrap_content" />
-
+    <TextView
+        android:text="1、打开MainReactActivity，并且传递路由数据"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/button_open_main"
-        android:text="open rn with MainActivity"
+        android:text="open MainReactActivity"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:text="2、仅打开MyReactActivity，不传递数据"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/button_open_my_react"
-        android:text="open rn with MyReactActivity"
+        android:text="open MyReactActivity"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="3、打开官方教程创建的Activity，与react-navigation不兼容"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_open_official_react"
+        android:text="open OfficialReactActivity"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

@@ -23,7 +23,7 @@ function SettingScreen() {
 
 const Stack = createNativeStackNavigator();
 
-export default function MyApp() {
+export default function OfficialApp() {
   return (
     <NavigationContainer>
       <Stack.Navigator>

@@ -6,7 +6,7 @@ rn-cli创建的android项目在添加新Activity后，提示targetVersion和comp
 
 #### Android创建可以打开RN的Activity有2种方法：
 1. 直接用cli模板生成的MainActivity和MainApplication
-2. 根据官网教程创建MyReactActivity，但是不知道为什么无法返回
+2. 根据官网教程创建OfficialReactActivity，但是不知道为什么无法返回
 
 #### 启动RN
 ```

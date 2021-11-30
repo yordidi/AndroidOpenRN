@@ -66,7 +66,7 @@ public class NativeEventToRN extends ReactContextBaseJavaModule implements Lifec
     public void getIntentData(Promise promise) {
         try{
             Intent intent = getCurrentActivity().getIntent();
-            String msg = intent.getStringExtra("extrData");
+            String msg = intent.getStringExtra("routeName");
             promise.resolve(msg);
         } catch (Throwable e) {
             promise.resolve(e);

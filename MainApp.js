@@ -1,9 +1,5 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
+ * 渲染一个RN页面，并且接收Native传递过来的数据
  */
 
 import React, {useEffect, useCallback} from 'react';
@@ -57,7 +53,7 @@ function SettingScreen() {
 
 const Stack = createNativeStackNavigator();
 
-const App: () => Node = () => {
+const MainApp: () => Node = () => {
   const navigationRef = useNavigationContainerRef();
 
   useEffect(() => {
@@ -98,4 +94,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default MainApp;
