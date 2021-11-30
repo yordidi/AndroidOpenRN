@@ -26,7 +26,11 @@ rn-cli创建的android项目在添加新Activity后，提示targetVersion和comp
 1. **backPress左滑直接退出RN**
 * 禁用react-navigation的的回退事件，调用rn activity的回退事件。当然也可以通过setResult回传数据给Native
 * onBackPressed要先获取RN需要回传的数据，RN端可以通过EventEmitter监听onBackPressed的调用，进行数据的回传给Native Activity。 
-* Pause、Stop、Destroy，当这些生命周期函数调用时，虽然可以执行JS方法回传数据给Native Module，再处理Native Module返回的数据，但是会造成React Activity退出延迟。就算是不处理Promise返回的数据，也会造成延迟。不知道有什么影响？？？
+* Pause、Stop、Destroy，当这些生命周期函数调用时，虽然可以执行JS方法回传数据给Native Module，再处理Native Module返回的数据，但是会造成React Activity退出延迟。就算是不处理Promise返回的数据，也会造成延迟。不知道有什么影响？？？参考：calledAfterReactDestroy方法
 
 2. 通过一个rn方法，rn方法调用native方法关闭rn activity 如 ReactWithResult
 例如，homeActivityResultLauncher.launch吊起RN，JS可以调用Native方法通过finish退出RN和setResult回传数据给吊起RN的Native Activity。
+
+
+#### 监听Native事件
+比如监听生命周期函数调用，参见MainApp.js

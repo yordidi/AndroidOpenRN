@@ -99,4 +99,14 @@ public class NativeEventToRN extends ReactContextBaseJavaModule implements Lifec
         }
 
     }
+    // Pause、Stop、Destroy，当这些生命周期函数调用时，虽然可以执行JS方法回传数据给Native Module，再处理Native Module返回的数据，但是会造成React Activity退出延迟。就算是不处理Promise返回的数据，也会造成延迟。不知道有什么影响？？？
+    @ReactMethod
+    public void calledAfterReactDestroy(Promise promise) {
+        int n = 0;
+        for (int i = 0; i < 1000000000; i++) {
+            n++;
+        }
+        Log.d(TAG, "testMethod: " + n);
+//        promise.resolve(n);
+    }
 }
