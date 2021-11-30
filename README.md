@@ -16,6 +16,6 @@ rn-cli创建的android项目在添加新Activity后，提示targetVersion和comp
 2. **Native Module传递** 
 * 如果数据不是在Native Activity上的，通过在RN的useEffect里调用Native Module方法主动获取数据也是可以的。
 3. **启动RN，并打开一个指定的Screen**
+也就是在Native Module里传路由数据给RN，RN在useEffect里拿到路由数据进行重定向。
 4. **backPress直接退出RN**
-
-
+禁用react-navigation的的回退事件，调用rn activity的回退事件
