@@ -7,3 +7,7 @@ export const getIntentData = params => {
 export const popReactNative = params => {
   return NativeModules.NativeEventToRN.popReactNative();
 };
+
+export const popReactNativeWithResult = params => {
+  return NativeModules.NativeEventToRN.popReactNativeWithResult(params);
+};

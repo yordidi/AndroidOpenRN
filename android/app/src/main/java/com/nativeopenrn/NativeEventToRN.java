@@ -84,4 +84,19 @@ public class NativeEventToRN extends ReactContextBaseJavaModule implements Lifec
         }
 
     }
+
+    // 退出RN并且回传数据
+    @ReactMethod
+    public void popReactNativeWithResult(String resultData, Promise promise) {
+        try{
+            Activity activity = getCurrentActivity();
+            Intent intent = new Intent();
+            intent.putExtra("resultData", resultData);
+            activity.setResult(Activity.RESULT_OK, intent);
+            activity.finish();
+        } catch (Throwable e) {
+            promise.resolve(e);
+        }
+
+    }
 }

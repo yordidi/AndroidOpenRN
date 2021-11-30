@@ -47,6 +47,7 @@ function SettingScreen() {
   return (
     <View style={styles.box}>
       <Text>Settings!</Text>
+      <Text>左滑退出，会直接关闭退出RN</Text>
     </View>
   );
 }

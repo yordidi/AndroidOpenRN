@@ -1,14 +1,23 @@
 package com.nativeopenrn;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener{
+    private static final String TAG = "HomeActivity";
+    ActivityResultLauncher<Intent> homeActivityResultLauncher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,9 +30,27 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Button button1 = (Button) findViewById(R.id.button_open_main);
         Button button2 = (Button) findViewById(R.id.button_open_my_react);
         Button button3 = (Button) findViewById(R.id.button_open_official_react);
+        Button button4 = (Button) findViewById(R.id.button_open_resulted_react);
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
         button3.setOnClickListener(this);
+        button4.setOnClickListener(this);
+
+        // You can do the assignment inside onAttach or onCreate, i.e, before the activity is displayed
+        homeActivityResultLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                new ActivityResultCallback<ActivityResult>() {
+                    @Override
+                    public void onActivityResult(ActivityResult result) {
+                        if (result.getResultCode() == Activity.RESULT_OK) {
+                            // There are no request codes
+                            Intent data = result.getData();
+                            String backData = data.getStringExtra("resultData");
+                            Log.d(TAG, "onActivityResult: " + backData);
+                            Toast.makeText(HomeActivity.this, backData, Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
 
     }
 
@@ -46,6 +73,17 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent3 = new Intent(HomeActivity.this, OfficialReactActivity.class);
                 startActivity(intent3);
                 break;
+            // 打开rn，并且监听返回值
+            case R.id.button_open_resulted_react:
+
+                Intent intent4 = new Intent(this, ReactWithResult.class);
+                if (homeActivityResultLauncher != null) {
+                    homeActivityResultLauncher.launch(intent4);
+                }
+
+                break;
         }
     }
+
+
 }
