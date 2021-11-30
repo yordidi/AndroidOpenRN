@@ -1,4 +1,4 @@
-package com.androidopenrn;
+package com.nativeopenrn;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class FirstActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_home);
 
         Button buttonOpenRN = (Button) findViewById(R.id.button_open_main);
         buttonOpenRN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FirstActivity.this, MainActivity.class);
+                Intent intent = new Intent(HomeActivity.this, MainActivity.class);
                 intent.putExtra("extrData", "settings");
                 startActivity(intent);
             }
@@ -29,7 +29,7 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(FirstActivity.this, MyReactActivity.class);
+                Intent intent = new Intent(HomeActivity.this, MyReactActivity.class);
                 startActivity(intent);
             }
         });

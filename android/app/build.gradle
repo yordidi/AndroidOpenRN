@@ -132,7 +132,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.androidopenrn"
+        applicationId "com.nativeopenrn"
         minSdkVersion rootProject.ext.minSdkVersion
 //        targetSdkVersion rootProject.ext.targetSdkVersion
         targetSdkVersion 31

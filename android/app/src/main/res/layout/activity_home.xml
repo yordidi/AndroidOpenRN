@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
+
     <TextView
         android:text="Some Words"
         android:gravity="center"

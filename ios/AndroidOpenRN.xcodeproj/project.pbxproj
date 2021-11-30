@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* AndroidOpenRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AndroidOpenRNTests.m */; };
+		00E356F31AD99517003FC87E /* nativeopenrnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nativeopenrnTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6BFA4204F4727C6DC867C50F /* libPods-AndroidOpenRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846E2F0564F04D0DFD0907BE /* libPods-AndroidOpenRN.a */; };
+		6BFA4204F4727C6DC867C50F /* libPods-nativeopenrn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846E2F0564F04D0DFD0907BE /* libPods-nativeopenrn.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C41136D2F9EC39839F5F21FF /* libPods-AndroidOpenRN-AndroidOpenRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D4C4DDFA3DBF733699DB07 /* libPods-AndroidOpenRN-AndroidOpenRNTests.a */; };
+		C41136D2F9EC39839F5F21FF /* libPods-nativeopenrn-nativeopenrnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D4C4DDFA3DBF733699DB07 /* libPods-nativeopenrn-nativeopenrnTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AndroidOpenRN;
+			remoteInfo = nativeopenrn;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* AndroidOpenRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidOpenRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* nativeopenrnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nativeopenrnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AndroidOpenRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidOpenRNTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* AndroidOpenRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidOpenRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AndroidOpenRN/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AndroidOpenRN/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AndroidOpenRN/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AndroidOpenRN/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AndroidOpenRN/main.m; sourceTree = "<group>"; };
-		24675C4E5EF9FEC3C441FFDB /* Pods-AndroidOpenRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndroidOpenRN.debug.xcconfig"; path = "Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN.debug.xcconfig"; sourceTree = "<group>"; };
-		30D4C4DDFA3DBF733699DB07 /* libPods-AndroidOpenRN-AndroidOpenRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AndroidOpenRN-AndroidOpenRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AndroidOpenRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		846E2F0564F04D0DFD0907BE /* libPods-AndroidOpenRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AndroidOpenRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A11A7C49BB230726E9D88B9E /* Pods-AndroidOpenRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndroidOpenRN.release.xcconfig"; path = "Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN.release.xcconfig"; sourceTree = "<group>"; };
-		ABFB8B1922B9A6991A70255D /* Pods-AndroidOpenRN-AndroidOpenRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndroidOpenRN-AndroidOpenRNTests.debug.xcconfig"; path = "Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* nativeopenrnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nativeopenrnTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* nativeopenrn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nativeopenrn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = nativeopenrn/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = nativeopenrn/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nativeopenrn/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nativeopenrn/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nativeopenrn/main.m; sourceTree = "<group>"; };
+		24675C4E5EF9FEC3C441FFDB /* Pods-nativeopenrn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeopenrn.debug.xcconfig"; path = "Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn.debug.xcconfig"; sourceTree = "<group>"; };
+		30D4C4DDFA3DBF733699DB07 /* libPods-nativeopenrn-nativeopenrnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nativeopenrn-nativeopenrnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nativeopenrn/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846E2F0564F04D0DFD0907BE /* libPods-nativeopenrn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nativeopenrn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A7C49BB230726E9D88B9E /* Pods-nativeopenrn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeopenrn.release.xcconfig"; path = "Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn.release.xcconfig"; sourceTree = "<group>"; };
+		ABFB8B1922B9A6991A70255D /* Pods-nativeopenrn-nativeopenrnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeopenrn-nativeopenrnTests.debug.xcconfig"; path = "Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F7F64B67CF5F2999C101EB4A /* Pods-AndroidOpenRN-AndroidOpenRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndroidOpenRN-AndroidOpenRNTests.release.xcconfig"; path = "Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7F64B67CF5F2999C101EB4A /* Pods-nativeopenrn-nativeopenrnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeopenrn-nativeopenrnTests.release.xcconfig"; path = "Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41136D2F9EC39839F5F21FF /* libPods-AndroidOpenRN-AndroidOpenRNTests.a in Frameworks */,
+				C41136D2F9EC39839F5F21FF /* libPods-nativeopenrn-nativeopenrnTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BFA4204F4727C6DC867C50F /* libPods-AndroidOpenRN.a in Frameworks */,
+				6BFA4204F4727C6DC867C50F /* libPods-nativeopenrn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* AndroidOpenRNTests */ = {
+		00E356EF1AD99517003FC87E /* nativeopenrnTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AndroidOpenRNTests.m */,
+				00E356F21AD99517003FC87E /* nativeopenrnTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AndroidOpenRNTests;
+			path = nativeopenrnTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AndroidOpenRN */ = {
+		13B07FAE1A68108700A75B9A /* nativeopenrn */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AndroidOpenRN;
+			name = nativeopenrn;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				846E2F0564F04D0DFD0907BE /* libPods-AndroidOpenRN.a */,
-				30D4C4DDFA3DBF733699DB07 /* libPods-AndroidOpenRN-AndroidOpenRNTests.a */,
+				846E2F0564F04D0DFD0907BE /* libPods-nativeopenrn.a */,
+				30D4C4DDFA3DBF733699DB07 /* libPods-nativeopenrn-nativeopenrnTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AndroidOpenRN */,
+				13B07FAE1A68108700A75B9A /* nativeopenrn */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AndroidOpenRNTests */,
+				00E356EF1AD99517003FC87E /* nativeopenrnTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				88F27D958D829946A666DA1E /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AndroidOpenRN.app */,
-				00E356EE1AD99517003FC87E /* AndroidOpenRNTests.xctest */,
+				13B07F961A680F5B00A75B9A /* nativeopenrn.app */,
+				00E356EE1AD99517003FC87E /* nativeopenrnTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		88F27D958D829946A666DA1E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				24675C4E5EF9FEC3C441FFDB /* Pods-AndroidOpenRN.debug.xcconfig */,
-				A11A7C49BB230726E9D88B9E /* Pods-AndroidOpenRN.release.xcconfig */,
-				ABFB8B1922B9A6991A70255D /* Pods-AndroidOpenRN-AndroidOpenRNTests.debug.xcconfig */,
-				F7F64B67CF5F2999C101EB4A /* Pods-AndroidOpenRN-AndroidOpenRNTests.release.xcconfig */,
+				24675C4E5EF9FEC3C441FFDB /* Pods-nativeopenrn.debug.xcconfig */,
+				A11A7C49BB230726E9D88B9E /* Pods-nativeopenrn.release.xcconfig */,
+				ABFB8B1922B9A6991A70255D /* Pods-nativeopenrn-nativeopenrnTests.debug.xcconfig */,
+				F7F64B67CF5F2999C101EB4A /* Pods-nativeopenrn-nativeopenrnTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AndroidOpenRNTests */ = {
+		00E356ED1AD99517003FC87E /* nativeopenrnTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AndroidOpenRNTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nativeopenrnTests" */;
 			buildPhases = (
 				E4098A87FF42BC40DE049C51 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AndroidOpenRNTests;
-			productName = AndroidOpenRNTests;
-			productReference = 00E356EE1AD99517003FC87E /* AndroidOpenRNTests.xctest */;
+			name = nativeopenrnTests;
+			productName = nativeopenrnTests;
+			productReference = 00E356EE1AD99517003FC87E /* nativeopenrnTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AndroidOpenRN */ = {
+		13B07F861A680F5B00A75B9A /* nativeopenrn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AndroidOpenRN" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nativeopenrn" */;
 			buildPhases = (
 				B59FEFB098BA11557F22552C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = AndroidOpenRN;
-			productName = AndroidOpenRN;
-			productReference = 13B07F961A680F5B00A75B9A /* AndroidOpenRN.app */;
+			name = nativeopenrn;
+			productName = nativeopenrn;
+			productReference = 13B07F961A680F5B00A75B9A /* nativeopenrn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AndroidOpenRN" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nativeopenrn" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AndroidOpenRN */,
-				00E356ED1AD99517003FC87E /* AndroidOpenRNTests */,
+				13B07F861A680F5B00A75B9A /* nativeopenrn */,
+				00E356ED1AD99517003FC87E /* nativeopenrnTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		481F42105FDDC03785A3080D /* [CP] Embed Pods Frameworks */ = {
@@ -288,15 +288,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4D1043689C94E642B6C64C96 /* [CP] Copy Pods Resources */ = {
@@ -305,15 +305,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN/Pods-AndroidOpenRN-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn/Pods-nativeopenrn-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B59FEFB098BA11557F22552C /* [CP] Check Pods Manifest.lock */ = {
@@ -331,7 +331,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AndroidOpenRN-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-nativeopenrn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -353,7 +353,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AndroidOpenRN-AndroidOpenRNTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-nativeopenrn-nativeopenrnTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndroidOpenRN-AndroidOpenRNTests/Pods-AndroidOpenRN-AndroidOpenRNTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nativeopenrn-nativeopenrnTests/Pods-nativeopenrn-nativeopenrnTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AndroidOpenRNTests.m in Sources */,
+				00E356F31AD99517003FC87E /* nativeopenrnTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AndroidOpenRN */;
+			target = 13B07F861A680F5B00A75B9A /* nativeopenrn */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABFB8B1922B9A6991A70255D /* Pods-AndroidOpenRN-AndroidOpenRNTests.debug.xcconfig */;
+			baseConfigurationReference = ABFB8B1922B9A6991A70255D /* Pods-nativeopenrn-nativeopenrnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AndroidOpenRNTests/Info.plist;
+				INFOPLIST_FILE = nativeopenrnTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidOpenRN.app/AndroidOpenRN";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeopenrn.app/nativeopenrn";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F64B67CF5F2999C101EB4A /* Pods-AndroidOpenRN-AndroidOpenRNTests.release.xcconfig */;
+			baseConfigurationReference = F7F64B67CF5F2999C101EB4A /* Pods-nativeopenrn-nativeopenrnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AndroidOpenRNTests/Info.plist;
+				INFOPLIST_FILE = nativeopenrnTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidOpenRN.app/AndroidOpenRN";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeopenrn.app/nativeopenrn";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24675C4E5EF9FEC3C441FFDB /* Pods-AndroidOpenRN.debug.xcconfig */;
+			baseConfigurationReference = 24675C4E5EF9FEC3C441FFDB /* Pods-nativeopenrn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = AndroidOpenRN/Info.plist;
+				INFOPLIST_FILE = nativeopenrn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AndroidOpenRN;
+				PRODUCT_NAME = nativeopenrn;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A11A7C49BB230726E9D88B9E /* Pods-AndroidOpenRN.release.xcconfig */;
+			baseConfigurationReference = A11A7C49BB230726E9D88B9E /* Pods-nativeopenrn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AndroidOpenRN/Info.plist;
+				INFOPLIST_FILE = nativeopenrn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AndroidOpenRN;
+				PRODUCT_NAME = nativeopenrn;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -656,7 +656,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AndroidOpenRNTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nativeopenrnTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -665,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AndroidOpenRN" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nativeopenrn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -674,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AndroidOpenRN" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nativeopenrn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

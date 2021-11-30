@@ -1,4 +1,4 @@
-package com.androidopenrn;
+package com.nativeopenrn;
 
 import androidx.annotation.NonNull;
 

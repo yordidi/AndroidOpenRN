@@ -1,4 +1,4 @@
-package com.androidopenrn;
+package com.nativeopenrn;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "AndroidOpenRN";
+    return "nativeopenrn";
   }
 
 }
